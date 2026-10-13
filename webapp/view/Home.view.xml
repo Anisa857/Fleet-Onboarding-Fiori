@@ -1,0 +1,143 @@
+<mvc:View
+    controllerName="fleet.onboarding.controller.Home"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+
+    <Page
+        id="page"
+        showHeader="true"
+        enableScrolling="false">
+
+        <customHeader>
+            <Bar>
+                <contentLeft>
+                    <Title
+                        text="Fleet Onboarding"
+                        class="headerTitle"/>
+                </contentLeft>
+
+                <contentRight>
+                    <Button
+                        id="themeButton"
+                        icon="sap-icon://light-mode"
+                        type="Transparent"
+                        press=".onThemeChange"
+                        tooltip="Light / Dark Mode"
+                        class="themeButton"/>
+                </contentRight>
+            </Bar>
+        </customHeader>
+
+        <content>
+            <VBox
+                class="homeContainer"
+                alignItems="Center">
+
+                <Title
+                    text="Fleet Onboarding"
+                    level="H1"
+                    class="mainTitle"/>
+
+                <Text
+                    text="Vehicle details, gate checks, registration and administration in one place."
+                    class="mainSubtitle"/>
+
+                <HBox
+                    class="cardContainer"
+                    justifyContent="Center"
+                    alignItems="Start"
+                    wrap="Wrap">
+
+                    <VBox
+                        class="fleetCard"
+                        alignItems="Center">
+
+                        <Image
+                            src="Images/vehicle-details.png"
+                            width="320px"
+                            height="220px"
+                            densityAware="false"
+                            decorative="false"
+                            alt="Vehicle Details"/>
+
+                        <Title
+                            text="Vehicle Details and Gate Check"
+                            level="H3"
+                            class="cardTitle"/>
+
+                        <Text
+                            text="Vehicle inspection, gate validation and vehicle information."
+                            textAlign="Center"
+                            width="100%"
+                            class="cardText"/>
+
+                        <Button
+                            text="→"
+                            class="arrowText"/>
+
+                    </VBox>
+
+                    <VBox
+                        class="fleetCard"
+                        alignItems="Center">
+
+                        <Image
+                            src="Images/vehicle-registration.png"
+                            width="320px"
+                            height="220px"
+                            densityAware="false"
+                            decorative="false"
+                            alt="Vehicle Registration"/>
+
+                        <Title
+                            text="Vehicle Registration"
+                            level="H3"
+                            class="cardTitle"/>
+
+                        <Text
+                            text="Register and maintain vehicle information."
+                            textAlign="Center"
+                            width="100%"
+                            class="cardText"/>
+
+                        <Button
+                            text="→"
+                            class="arrowText"/>
+
+                    </VBox>
+
+                    <VBox
+                        class="fleetCard"
+                        alignItems="Center">
+
+                        <Image
+                            src="Images/admin-module.png"
+                            width="320px"
+                            height="220px"
+                            densityAware="false"
+                            decorative="false"
+                            alt="Admin Module"/>
+
+                        <Title
+                            text="Admin Module"
+                            level="H3"
+                            class="cardTitle"/>
+
+                        <Text
+                            text="Manage fleet administration and system settings."
+                            textAlign="Center"
+                            width="100%"
+                            class="cardText"/>
+
+                        <Button
+                            text="→"
+                            class="arrowText"/>
+
+                    </VBox>
+
+                </HBox>
+            </VBox>
+        </content>
+
+    </Page>
+</mvc:View>

@@ -1,0 +1,271 @@
+html,
+body,
+#content {
+ height: 100%;
+ margin: 0;
+ padding: 0;
+}
+ 
+/* =========================================
+ HEADER
+ ========================================= */
+ 
+.headerTitle {
+ font-size: 18px !important;
+}
+ 
+.sapMBar {
+ height: 52px !important;
+}
+ 
+#themeButton {
+ margin-right: 5px;
+}
+ 
+#themeButton .sapMBtnIcon {
+ font-size: 20px !important;
+}
+ 
+ 
+/* =========================================
+ HOME PAGE
+ ========================================= */
+ 
+.homeContainer {
+ width: 100%;
+ min-height: calc(100vh - 52px);
+ box-sizing: border-box;
+ 
+ padding-top: 30px;
+ 
+ background-color: #f7f7f7;
+ 
+ transition:
+ background-color 0.3s ease,
+ color 0.3s ease;
+}
+ 
+ 
+/* =========================================
+ MAIN TITLE
+ ========================================= */
+ 
+.mainTitle {
+ font-size: 34px !important;
+ font-weight: 700 !important;
+ 
+ margin-top: 0;
+ margin-bottom: 4px;
+ 
+ color: #17365d !important;
+}
+ 
+ 
+/* =========================================
+ SUBTITLE
+ ========================================= */
+ 
+.mainSubtitle {
+ font-size: 14px !important;
+ 
+ margin-bottom: 18px;
+ 
+ color: #222222 !important;
+}
+ 
+ 
+/* =========================================
+ CARD CONTAINER
+ ========================================= */
+ 
+.cardContainer {
+ width: 100%;
+ 
+ gap: 12px;
+ 
+ margin-top: 0;
+}
+ 
+ 
+/* =========================================
+ FLEET CARD
+ ========================================= */
+ 
+.fleetCard {
+ width: 320px;
+ height: 340px;
+ 
+ margin: 0 0 20px 0;
+ 
+ background-color: #ffffff;
+ 
+ border: 1px solid #d5d5d5;
+ 
+ border-radius: 4px;
+ 
+ overflow: hidden;
+ 
+ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+ 
+ cursor: pointer;
+ 
+ transition:
+ background-color 0.3s ease,
+ border-color 0.3s ease,
+ box-shadow 0.2s ease,
+ transform 0.2s ease;
+}
+ 
+ 
+/* =========================================
+ CARD HOVER
+ ========================================= */
+ 
+.fleetCard:hover {
+ transform: translateY(-3px);
+ 
+ box-shadow:
+ 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+ 
+ 
+/* =========================================
+ CARD IMAGE
+ ========================================= */
+ 
+.fleetCard .sapMImg {
+ display: block;
+ 
+ width: 320px !important;
+ height: 220px !important;
+ 
+ object-fit: cover;
+}
+ 
+ 
+/* =========================================
+ CARD TITLE
+ ========================================= */
+ 
+.cardTitle {
+ width: 100%;
+ 
+ text-align: center;
+ 
+ font-size: 16px !important;
+ 
+ font-weight: 600 !important;
+ 
+ margin-top: 8px;
+ 
+ color: #444444 !important;
+}
+ 
+ 
+/* =========================================
+ CARD DESCRIPTION
+ ========================================= */
+ 
+.cardText {
+ width: 100%;
+ 
+ text-align: center;
+ 
+ font-size: 13px !important;
+ 
+ margin-top: 4px;
+ 
+ padding: 0 15px;
+ 
+ box-sizing: border-box;
+ 
+ color: #666666 !important;
+}
+ 
+ 
+/* =========================================
+ ARROW
+ ========================================= */
+ 
+.arrowText {
+ font-size: 28px !important;
+ 
+ margin-top: 10px;
+ 
+ color: #000000 !important;
+}
+ 
+ 
+/* =========================================
+ DARK MODE
+ ========================================= */
+ 
+.darkMode {
+ background-color: #171a1b !important;
+}
+ 
+.darkMode .sapMPageBgStandard {
+ background-color: #171a1b !important;
+}
+ 
+.darkMode .sapMPageEnableScrolling {
+ background-color: #171a1b !important;
+}
+ 
+.darkMode .homeContainer {
+ background-color: #171a1b !important;
+}
+ 
+.darkMode .sapMBar {
+ background-color: #202426 !important;
+ 
+ border-bottom: 1px solid #555555 !important;
+}
+ 
+.darkMode .headerTitle {
+ color: #ffffff !important;
+}
+ 
+.darkMode .mainTitle {
+ color: #ffffff !important;
+}
+ 
+.darkMode .mainSubtitle {
+ color: #dddddd !important;
+}
+ 
+.darkMode .fleetCard {
+ background-color: #242829 !important;
+ 
+ border: 1px solid #454a4c !important;
+ 
+ box-shadow:
+ 0 2px 8px rgba(0, 0, 0, 0.45);
+}
+ 
+.darkMode .cardTitle {
+ color: #ffffff !important;
+}
+ 
+.darkMode .cardText {
+ color: #dddddd !important;
+}
+ 
+.darkMode .arrowText {
+ color: #ffffff !important;
+}
+ 
+.darkMode #themeButton .sapMBtnIcon {
+ color: #ffffff !important;
+}
+ 
+ 
+/* =========================================
+ BODY DARK MODE
+ ========================================= */
+ 
+body.darkMode,
+body.sapUiBody.darkMode {
+ background-color: #171a1b !important;
+}
+ 

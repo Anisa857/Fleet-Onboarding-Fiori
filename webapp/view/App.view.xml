@@ -1,0 +1,11 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" displayBlock="true">
+<App id="app">
+  <pages>
+    <Page showHeader="false">
+      <content>
+        <mvc:XMLView viewName="fleet.onboarding.view.Home"/>
+      </content>
+    </Page>
+  </pages>
+</App>
+</mvc:View>
